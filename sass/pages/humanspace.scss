@@ -1,0 +1,130 @@
+.container00 {
+    &.container09 {
+        background-image: url(../../img/human/01.jpg);
+    }
+    &.container10 {
+        background-image: url(../../img/human/02.jpg);
+    }
+    &.container11 {
+        background-image: url(../../img/human/03.jpg);
+    }
+    &.container12 {
+        background-image: url(../../img/human/04.jpg);
+    }
+    &.container13 {
+        background-image: url(../../img/human/05.jpg);
+    }
+}
+
+.titleHuman {
+    font-size: 110px;
+    font-weight: 700;
+}
+
+.subTitleHuman {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.humanContent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.textHuman {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;  
+    height: 30vh;
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 5%;
+}
+
+.humanTextStart{
+    margin-left: 5%;
+    padding-top: 15%;
+}
+
+.humanTextEnd {
+    margin-left: 55%;
+    padding-top: 15%;
+}
+
+.emailObc  {
+    text-decoration: none;
+    color: $link-hover;
+    border-bottom: 1px solid $link-hover;
+
+    &:hover {
+        color: #ac1717;
+        border-bottom: 1px solid #ac1717;
+    }
+    }
+
+.titleSection {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.subTitleSection {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+@media(max-width: 780px) {
+    .titleHuman {
+        font-size: 80px;
+    }
+    .subTitleHuman {
+        font-size: 22px;
+        padding-bottom: 30px;
+    }
+}
+
+@media(max-width: 555px) {
+    .titleHuman {
+        font-size: 60px;
+    }
+    .subTitleHuman {
+        font-size: 18px;
+    }
+    .textHuman {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 455px) {
+    .humanTextEnd {
+        margin-left: 3%;
+    }
+    .humanTextStart {
+        margin-left: 3%;
+    }
+    .titleSection {
+        font-size: 40px;
+    }
+    .subTitleSection {
+        font-size: 16px;
+    }
+    .titleHuman {
+        font-size: 50px;
+    }
+    .subTitleHuman {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 455px) {
+    .titleHuman {
+        font-size: 45px;
+    }
+}
+
